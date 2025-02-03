@@ -1,0 +1,42 @@
+.page-header {
+    background-color: #bdbdbd;
+}
+
+.page-title {
+    color: #f44336;
+}
+
+.section-title {
+    color: #3f51b5;
+}
+
+.section-text {
+    color: #ff5722;
+}
+
+.page-footer {
+    background-color: #212121;
+}
+
+.footer-text {
+    color: #ffffff;
+}
+
+h3 {
+    color: #4caf50;
+}
+
+a {
+    color: #ffc107;
+}
+
+nav {
+    background-color: rgba(0, 0, 255, 0.3);
+}
+.link {
+    color: teal;
+}
+
+.link:hover {
+    color: tomato;
+}
