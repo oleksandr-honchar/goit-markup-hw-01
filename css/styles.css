@@ -1,5 +1,22 @@
-.body {
-  font-family: "Roboto", sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+  color: #212121;
+  font-size: 14px;
+  background-color: #fafafa;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
 }
 
 .page-header {
@@ -7,19 +24,28 @@
 }
 
 .page-title {
-  font-family: "Roboto";
-}
-
-.page-title {
   color: #f44336;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.333;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px #212121;
 }
 
 .section-title {
   color: #3f51b5;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.333;
+  letter-spacing: 1px;
 }
 
 .section-text {
   color: #ff5722;
+  line-height: 1.5;
+  text-indent: 24px;
 }
 
 .page-footer {
@@ -32,6 +58,9 @@
 
 h3 {
   color: #4caf50;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.333;
 }
 
 a {
@@ -51,27 +80,31 @@ nav {
 
 .page-nav .link {
   color: #00bcd4;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .page-nav .link:hover,
 .page nav .link:focus {
   color: #18ffff;
+  text-decoration: underline;
 }
 
 .page-nav .link:active {
   color: #212121;
 }
-
+.feature-list .link:active {
+  color: #ff1744;
+}
 .feature-list .link {
   color: #ffc107;
+  text-decoration: none;
 }
 .feature-list .link:hover,
 .feature-list .link:focus {
   color: #f57f17;
-}
-
-.feature-list .link:active {
-  color: #ff1744;
+  text-decoration: underline;
 }
 
 .button {
@@ -80,4 +113,8 @@ nav {
 
 p {
   font-size: 20px;
+}
+
+li {
+  text-align: center;
 }
